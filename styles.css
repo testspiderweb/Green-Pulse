@@ -33,6 +33,8 @@ body {
     background: #2c6e49;
     padding: 10px 20px;
     flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 3;
    
 }
 
@@ -47,11 +49,16 @@ body {
     margin-left: 20px;
 }
 
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .navbar ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 1rem;
+    font-size:15px;
     padding: 10px 15px;
     transition: background 0.3s;
 }
@@ -100,13 +107,12 @@ nav ul li a:hover {
 
 .gridText {
     background-color: #007B5E;
-    height: 48px;
+    line-height: 2em;
+    width: auto;
     margin: 0 5px 10px 5px;
     border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
+    text-align: center;
+    font-size: 2em;
     font-weight:500;
     color: white;
 }
