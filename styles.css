@@ -32,6 +32,7 @@ body {
     justify-content: space-between;
     background: #2c6e49;
     padding: 10px 20px;
+    flex-wrap: wrap;
 }
 
 .navbar ul {
@@ -104,7 +105,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 35px;
+    font-size: 2rem;
     font-weight:500;
     color: white;
 }
