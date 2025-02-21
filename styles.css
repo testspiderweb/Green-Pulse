@@ -33,6 +33,7 @@ body {
     background: #2c6e49;
     padding: 10px 20px;
     flex-wrap: wrap;
+   
 }
 
 .navbar ul {
@@ -50,7 +51,7 @@ body {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1rem;
     padding: 10px 15px;
     transition: background 0.3s;
 }
